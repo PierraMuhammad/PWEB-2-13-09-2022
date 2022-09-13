@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+        }
+
+        p{
+            margin: 0;
+            font-family: arial;
+        }
+
+        .navbar{
+            display: flex;
+        }
+
+        .left-section{
+            flex: 1;
+            padding-left: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: lightcoral;
+        }
+
+        .right-section{
+            display: flex;
+            padding-top: 20px;
+            padding-right: 20px;
+            background-color: lightblue;
+        }
+
+        .tanggal{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .menu{
+            display: flex;
+            padding-right: 20px;
+        }
+
+        .menu-cari, .menu-network, .menu-ikuti-kami, .menu-login{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .container{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .big-box{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: lightblue;
+            padding-left: 50px;
+        }
+
+        .big-title{
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .light-statement{
+            font-size: 20px;
+        }
+
+        .news-section{
+            display: flex;
+        }
+
+        .news-left-section{
+            flex: 1;
+        }
+
+        .news-right-section{
+            width: 300px;
+            margin-left: 30px;
+            padding-left: 20px;
+        }
+
+        .container-news{
+            margin-bottom: 25px;
+        }
+
+        .title{
+            font-size: 24px;
+            margin-bottom: 5px ;
+        }
+
+        .opening{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .categories{
+            margin-top: 10px;
+            display: flex;
+            width: 200px;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .footer{
+            background-color: lightblue;
+            margin-top: 150px;
+            padding-top: 100px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="left-section">
+            <p>TribunNews</p>
+        </div>
+        <div class="right-section">
+            <p class="tanggal">Selasa, 13 September 2022</p>
+            <div class="menu">
+                <div>
+                    <p class="menu-cari">Cari</p>
+                </div>
+                <div>
+                    <p class="menu-network">Network</p>
+                </div>
+                <div>
+                    <p class="menu-ikuti-kami">Ikuti kami</p>
+                </div>
+                <div>
+                    <p class="menu-login">Login</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- big title -->
+    <div class="container big-box">
+        <p class="big-title">
+            TribunNews
+        </p>
+        <p class="light-statement">
+            Berita berita baru untuk anda
+        </p>
+    </div>
+
+    <!-- news-section -->
+    <div class="container news-section">
+        <div class="news-left-section">
+            <div class="container-news left-section">
+                <p class="title">
+                    Plt Ketua Umum PPP Mardino Katanya Telah Berkomunikasi
+                    denan Suharso Monoarfa
+                </p>
+                <p class="opening">
+                    Mardiono, disebut telah berkomunikasi informasi dengan
+                    Suharso Monoarfa
+                </p>
+                <div class="categories">
+                    <p class="type">
+                        National
+                    </p>
+                    <p class="waktu">
+                        1 menit lalu
+                    </p>
+                </div>
+                <button class="button">Click Here</button>
+            </div>
+            <div class="container-news left-section">
+                <p class="title">
+                    Prediksi Skor Bayern Munchen vs Barcelona: Peluang Terbaik Barca dalam 6 Tahun Terakhir
+                </p>
+                <p class="opening">
+                    Barcelona memiliki peluang apik mengalahkan Bayern Munchen di Liga Champions dalam enam musim terakhir. Barca diprediksi menang dengan...
+                </p>
+                <div class="categories">
+                    <p class="type">
+                        National
+                    </p>
+                    <p class="waktu">
+                        1 menit lalu
+                    </p>
+                </div>
+                <button class="button">Click Here</button>
+            </div>
+        </div>
+        <div class="right-section news-right-section">
+            <p>tempat iklan bisa masuk sini</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <p>Copyright-Pierra</p>
+    </div>
+</body>
+</html>
